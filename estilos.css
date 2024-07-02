@@ -1,0 +1,97 @@
+/* estilos.css */
+
+/* estilos.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+    background-color: #FFFFCC; /* Amarillo muy suave */
+}
+
+nav {
+    background-color: #4CAF50; /* Verde normal */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff; /* Blanco */
+    text-align: center;
+    padding: 20px; /* Abarcar toda la palabra */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Verde oscuro al pasar el mouse */
+}
+
+h1 {
+    color: #fff; /* Blanco */
+    background-color: #4CAF50; /* Verde normal */
+    border: 4px solid #4CAF50; /* Borde verde, 4px de grosor */
+    font-size: 24px; /* Aumentar el tamaño de la fuente */
+    padding: 20px; /* Aumentar el espacio interno */
+    text-align: center; /* Centrar el texto */
+}
+
+li a {
+    display: block;
+    width: auto; /* Ajustar el ancho automáticamente */
+}
+
+p {
+    background-color: #FFFFCC; /* Amarillo muy suave */
+    border: 1px solid #4CAF50; /* Verde normal */
+    display: inline-block;
+    position: relative;
+    width: auto;
+    margin: 20px; /* Aumentar el margen alrededor de los párrafos */
+    padding: 15px; /* Espacio interno para mejor legibilidad */
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Tamaño de la fuente establecido */
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.banner {
+    display: block;
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente si es necesario */
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -15px; /* Ajusta este valor según la cantidad de espacio que desees */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;  /* Ajusta el ancho según necesites */
+    height: auto;  /* Esto mantiene la proporción de la imagen */
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
